@@ -1,5 +1,13 @@
 html {
   background-color: var(--background);
-  max-width: 500px;
+  max-width: 732px;
   margin: 0 auto;
+  font-size: 10px;
+  font-family: "Press Start 2P", cursive;
+}
+
+html,
+body {
+  font-size: 10px;
+  height: 100%;
 }
