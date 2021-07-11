@@ -4,7 +4,7 @@ import "./src/styles/elements/base.css";
 import BoardGame from "./src/objects/BoardGame"
 
 const $root = document.querySelector('#root')
-const $htmlBoardGame = BoardGame(3)
+const $htmlBoardGame = BoardGame(9)
 
 $root.insertAdjacentHTML('beforeend', $htmlBoardGame)
 
