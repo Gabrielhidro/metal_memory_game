@@ -1,10 +1,15 @@
 import Card from "../Card"
+import './style.css'
 
 function CardFrontBack(){
   return `
     <article class="card-front-back">
-      ${Card()}
-      ${Card('iron')}
+      <div class="card -front">
+        ${Card()}
+      </div>
+      <div class="card -back">
+        ${Card('iron')}
+      </div>
     </article>
   `
 }

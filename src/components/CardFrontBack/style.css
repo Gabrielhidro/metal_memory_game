@@ -1,0 +1,21 @@
+.card-front-back {
+  width: 16rem;
+  height: 19rem;
+
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.6s;
+}
+
+.card-front-back > .card {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card-front-back > .card.-back {
+  transform: rotateY(180deg);
+}
+
+.card-front-back.-active {
+  transform: rotateY(180deg);
+}
