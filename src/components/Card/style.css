@@ -1,7 +1,14 @@
 .card-game {
   width: 16rem;
   height: 19rem;
-  background: url(images/card-side.jpg) no-repeat center center;
   background-size: cover;
   border: 4px solid #fffcee;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-game img {
+  height: 100%;
 }
